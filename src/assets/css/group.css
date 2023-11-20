@@ -1,0 +1,282 @@
+.owed_text {
+  color: #1AB299;
+  font-weight: 600;
+}
+.settledup_text{
+  color: gray;
+  font-weight: 600;
+}
+.group_owed_text{
+  color:red;
+  font-weight: 600;
+}
+.grp_name{
+  font-weight: 600;
+}
+
+.grp_img{
+  height:102px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.prsn_owed_text{
+  color: gray;
+  font-size: small;
+}
+
+/* .scrolling_div{
+  height:100%
+} */
+
+.dropdown-item{
+  background-color: White !important;
+  color: black !important;
+  /* border:none !important;
+  box-shadow: none !important; */
+}
+
+.filter_grp_btn .btn-primary::after {
+  display:none;
+}
+
+
+.dropdown-menu.show{
+  padding: 10px;
+}
+
+.filter_grp_btn .btn-primary{
+  background-color: white !important;
+  color: black !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.filter_grp_btn .form-check-input:checked{
+  background-color: orange !important;
+  border-color: orange !important;
+}
+
+.add_img_div{
+  height: 90%;
+  width: 100%;
+  border: 2px solid #D7DADA;
+  position: relative;
+  border-radius: 10px;
+  background-color: #F4F9F8;
+}
+
+.grpimg{
+  height: 100%;
+  width: 100%;
+}
+
+.icon_img{
+  text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.add_new_grp{
+  background-color: transparent;
+  border: none;
+}
+
+.grp_type_scroll{
+  /* padding:10px; */
+  white-space:nowrap;
+  overflow-x:auto;
+}
+
+.btn-outline-success{
+  color:black !important;
+  border-radius: 25px !important;
+  border: 1px solid gray !important ;
+  width: 130px;
+  /* margin-left: 30px; */
+  /* width: 100%; */
+}
+.btn-outline-success:hover{
+  color: black !important ;
+  background-color: white !important;
+}
+
+.checked_button_type{
+  background-color: #CDE7DF !important; 
+  box-shadow: none;
+  color: #1AB299 !important;
+}
+
+.checked_button_type:hover{
+  background-color: #CDE7DF !important;
+  color: #1AB299 !important;
+}
+
+.unchecked_button_type{
+  background-color: white !important;
+}
+
+.image-upload>input {
+  display: none;
+}
+
+/* individual group-img on grpdetailpage */
+.ind_grp_img{
+  height:100px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+
+
+.ind_grp_scroll_btns{
+  white-space:nowrap;
+  overflow-x:auto;
+  padding: 10px;
+}
+
+
+/* settleup button */
+.settle-up_btn{
+  background-color: #F0923A !important;
+  border: none !important;
+  margin-right: 10px;
+  width: 130px;
+}
+
+.balances_btn{
+  border: none !important;
+  margin-right: 10px;
+  margin-left: 20px;
+  width: 130px;
+  background-color: white !important;
+  color: black !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.trans_txt{
+  font-size: 13px;
+}
+
+.expense-img{
+  height: 40px;
+  width: 40px;
+}
+
+.dd_txt{
+  font-size: 15px;
+}
+.mm_txt{
+  font-size: 10px;
+}
+
+.expense_txt{
+  font-size: 15px;
+  white-space: pre-line;
+}
+
+.top {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 5px;
+  /* padding: 16px; */
+  cursor: pointer;
+  /* width: 548px; */
+  margin-left: 2px;
+    width: 546px;
+  /* background-color: #1AB299; */
+  /* z-index: 999; */
+  /* width: 550px; */
+  /* height: 43px; */
+}
+
+.back_btn{
+  background-color: transparent;
+  border: none;
+}
+
+
+.dropdown-menu.show .hello{
+  margin-right: 0;
+  /* min-width: 550px; */
+  /* margin-left: -36%; */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.total-expense .btn{
+  background-color: white !important;
+  color: black !important;
+  border: none !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.total-expense .btn:focus{
+  box-shadow: none !important;
+}
+
+.accordion-button{
+  border:none !important;
+  padding: 10px !important;
+}
+
+.accordion-button:focus{
+  outline: 0 !important;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+.accordion-button:not(.collapsed){
+color: black   !important;
+background-color: white !important;
+box-shadow: none !important;
+}
+
+.accordion-item{
+  border: none !important;
+}
+
+.accordion-body{
+  padding: 10px !important;
+  padding-left: 20px !important ;
+}
+
+.balance-icon{
+  height: 20px;
+  border-radius: 25px;
+  width: 20px;
+}
+.grp-frd-icon{
+  height: 40px;
+  border-radius: 25px;
+  width: 40px;
+}
+
+.balances-div{
+  overflow-y:scroll ;
+  height: calc(100% - 40px);
+}
+
+.settle-up-btn{
+  background-color: transparent;
+  border: 1px solid #1AB299;
+  border-radius: 8px;
+  color: #1AB299;
+  font-weight: 400;
+}
+
+.grp-div{
+  overflow-y: scroll;
+}
+
+
+@media screen and (max-width: 550px) {
+  .top {
+    width: calc(100% - 2px);
+    /* border: 2px solid red; */
+  }
+}/*# sourceMappingURL=dashboard.css.map */

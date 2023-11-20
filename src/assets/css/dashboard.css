@@ -1,0 +1,68 @@
+.dashboard {
+  width: 545px;
+  position: fixed;
+  bottom: 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+}
+
+.main_cat_btn {
+  border: none !important;
+  background-color: white !important;
+  color: #1AB299 !important;
+}
+
+.default_btn {
+  border: none !important;
+  background-color: white !important;
+  color: black !important;
+}
+
+.add_grp_btn {
+  color: #1AB299 !important;
+  background-color: white !important;
+  font-weight: 600 !important;
+  border: 2px solid #1AB299 !important;
+}
+
+.add_grp_btn:hover {
+  color: #1AB299 !important;
+  background-color: white !important;
+}
+
+.offcanvas {
+  width: 550px;
+  height: 100vh !important;
+}
+
+.outlet_div {
+  height: calc(100% - 150px);
+  overflow-y: scroll;
+}
+
+.without-header-div {
+  height: calc(100% - 84px);
+  overflow-y: scroll;
+}
+
+.add_expense_btn {
+  position: absolute;
+  bottom: 120px;
+  right: 25px;
+  border-radius: 25px !important;
+  padding: 12px !important;
+  background-color: #1AB299 !important;
+  font-weight: 600 !important;
+  border: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+@media screen and (max-width: 550px) {
+  .dashboard {
+    width: 100%;
+  }
+}/*# sourceMappingURL=dashboard.css.map */

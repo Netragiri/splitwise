@@ -1,0 +1,62 @@
+.back_button {
+    background-color: white !important;
+    color: black !important;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.done_button {
+    background-color: #1AB299 !important;
+    border: none !important;
+}
+
+input {
+    // background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    // color: white;
+    outline: none;
+}
+
+.heading {
+    // color: white;
+    font-size: larger;
+    font-weight: 800;
+}
+
+.signup_icon {
+    height: 60px;
+    width: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.err_msg {
+    color: #DF381A
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    box-shadow: 0 0 0 1000px white inset !important;
+}
+
+.back_arrow {
+    cursor: pointer;
+}
+
+.forgot_pass_link {
+    text-decoration: none;
+    color: #1AB299;
+    font-weight: 700;
+}
+
+.forgot_pass_link:hover {
+    color: #1AB299;
+}
+
+input.email_input {
+    width: 90%;
+    border:1px solid gray ;
+}

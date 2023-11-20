@@ -1,0 +1,100 @@
+.add-expense-div .dropdown-menu.show {
+  min-width: 550px;
+  margin-left: -36%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.grp-frd-icon {
+  height: 50px;
+  border-radius: 25px;
+  width: 50px;
+}
+
+.add-exp-btn {
+  padding: 5px 15px 5px 15px;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* width: 0px; */
+}
+
+.scrollmenu{
+  white-space:nowrap;
+  overflow-x:auto;
+}
+
+.sel-btn {
+  /* text-decoration: underline; */
+  border-bottom: 2px solid black;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 40px;  
+}
+
+.unsel-btn {
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 40px;
+}
+.div_bottom{
+  width:550px !important;
+  margin-bottom: 10%;
+}
+.cat-icon{
+  height: 50px;
+  width: 50px;
+}
+
+.exp-cat-icon{
+  height:40px;
+  width: 40px;
+}
+
+#basic-addon2{
+  height:52px;
+  width: 64px;
+  /* padding: 0px; */
+}
+
+.add-expense-div .input-group-text{
+  border: none !important;
+  background-color: white !important;
+}
+
+.add-expense-div .input-group .form-control{
+  border-top:none !important;
+  border-right:none !important;
+  border-left:none !important;
+  height:50px
+}
+
+.add-expense-div .form-control:focus{
+box-shadow: none !important
+}
+
+.person_img{
+  height: 40px;
+  border-radius: 50%;
+}
+
+.form-check-input:checked {
+  background-color: #1AB299 !important;
+  border-color:#1AB299 !important;
+}
+
+
+
+@media screen and (max-width: 550px) {
+  .dropdown-menu.show {
+    min-width: 100vh;
+    margin-left: -35%;
+    /* margin-right: 0px; */
+    /* position: relative;
+      left: calc(-42vw + 50%); */
+
+  }
+  .div_bottom{
+    width:100% !important
+  }
+}
